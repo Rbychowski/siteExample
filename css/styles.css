@@ -8,7 +8,7 @@ h1, h2, h3 {
 }
 
 h2 {
-    color: #3046C5;
+    color: #4a4e50;
 
 }
 
@@ -29,17 +29,32 @@ header h2 {
 }
 
 .row-content {
-    padding: 50px 0;
+    padding: 20px 0;
     border-bottom: 1px ridge;
     min-height: 200px;
 }
 
 .navbar {
-    background-color: #901CAD;
+    background-color: #901cad;
 }
 
 .tab-content {
     border: 1px solid #DDD;
     border-top: none;
     padding: 10px;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+    border: solid #5637DD;
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
 }

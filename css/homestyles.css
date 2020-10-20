@@ -1,0 +1,22 @@
+h1, h2, h3{
+    font-family: 'Play', sans-serif;
+}
+
+body {
+    font-family: 'Play', sans-serif;
+}
+
+
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient(to right, #6f6e75, #4c4c50, #231c24);
+    color: white;
+}
+
+.row-content {
+    padding: 20px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
