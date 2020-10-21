@@ -9,9 +9,10 @@ body {
 
 .jumbotron {
     margin: 0;
-    padding: 30px;
-    background-image: linear-gradient(to right, #6f6e75, #4c4c50, #231c24);
-    color: white;
+    padding: 5px;
+    background-color: #000000b7;
+    
+    
 }
 
 .row-content {
@@ -19,4 +20,10 @@ body {
     border-bottom: 1px ridge;
     min-height: 200px;
 }
+.navbar {
+    background-color:  #000000b7;
+}
 
+li  {
+    color: white;
+}

@@ -15,36 +15,89 @@
         <title>Crystal Lake Drum Lessons</title>
     </head>
     <body>
-
-        <header class="jumbotron jumbotron-fluid">
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
             <div class="container">
-                <div class="row">
-                    <div class="col-7 col-sm-8 col-md-9 align-self-center">
-                        <a href="#"><img src="CLDL\images\logos\CLDL logo hor wht.png" class="img-fluid"  /></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="row collapse navbar-collapse" id="navbar">
+                    <ul class="navbar-nav">
+                        <div class="col">
+                            <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+                        </div>
+                        <div class="col">
+                            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                        </div>
+                        <div class="col col-sm-2">
+                            <li class="nav-item"><a class="nav-link text-no-wrap" href="#">Rates & Policies</a></li>
+                        </div>
+                        <div class="col col-sm-3">
+                            <li class="nav-item"><a class="nav-link" href="#">Repairs & Restorations</a></li>
+                        </div>
+                        <div class="col col-sm-1">
+                            <li class="nav-item"><a class="nav-link" href="#">FAQ</a></li>
+                        </div>
+                        <div class="col col-sm-2 mt-4">
+                            <li>
+                                <a role="button" data-toggle="modal" data-target="#registerModal" class="btn btn-small btn-secondary text-no-wrap">Register Today!</a>
+                            </li>
+                        </div>
+                        <div class="col">
+                            <a class="navbar-brand" href="home.html"><img src="CLDL\images\logos\CLDL logo hor wht.png" height="80">
+                            </a>
+
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="registerModal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header bg-secondary text-white">
+                        <h3 c;ass="modal-title">Register for Lessons</h3>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
                     </div>
-                    <div class="col">
-                        <h1>With your trusted Musician</h1>
-                        <h2>Toeknee Bilbrey</h2>
+                    <div class="modal-body">
+                        <form id="registerForm">
+                            <div class="form-group row">
+                                <label for="name" class="col-form-label col-sm-6">Name</label>
+                                <div class="col">
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="First and Last name">
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
+        </div>
+        <!--Jumbotron-->
+        <header class="jumbotron jumbotron-fluid">
+            <img src="CLDL\images\logos\love.jpg" class="img-fluid" alt="drumstick love">
         </header>
-        <h1>H1 Sample Text</h1>
-        <h2>H2 Sample Text</h2>
-        <h3>H3 Sample Text</h3>
-        Body Sample Text
-
-        <!--Accordion-->
         <div class="container">
+            <div class="row row-content">
+                <div class="col-sm-6">
+                    <h1>Welcome to Crystal Lake Drum Lessons</h1>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card bg-light mt-3">
+                        <blockquote class="blockquote card-body"><p class="mb-0">"Art is how we decorate space, music is how we decorate time."</p>
+                        <footer class="blockquote-footer">Jean-Michel Basquiat</footer></div>
+                </div>
+            </div>
+            <!--Accordion-->
             <div class="row row-content">
                 <div class="col">
                     <div id="accordion">
                         <div class="card">
                             <div role="tab" class="card-header">
-                                <h2><a data-toggle="collapse" data-target="#ready">Ready... <small>If you are reading this </small></a></h2>
+                                <h2><a data-toggle="collapse" data-target="#ready">Ready... </a></h2>
                                 <div class="collapse show" id="ready" data-parent="#accordion">
                                     <div class="card-body">
-                                        <p class="d-sm-block">... you have made the first step in learning.</p>
+                                        <h3 class="d-sm-block">If you are reading this... you have made the first step in learning.</h3>
                                     </div>
                                 </div>
                             </div>
@@ -52,11 +105,11 @@
                         <div class="card">
                             <div role="tab" class="card-header">
                                 <h2>
-                                    <a class="collapsed" data-toggle="collapse" data-target="#set">Set...<small>I teach everything from hand percussion to drumset,</small></a>
+                                    <a class="collapsed" data-toggle="collapse" data-target="#set">Set...</a>
                                 </h2>
                                 <div class="collapse" id="set" data-parent="#accordion">
                                     <div class="card-body">
-                                        <p class="d-sm-block">new to vintage, acoustic and electric, drum sticks and midi pads, or programming a drum machine inside your DAW.</p>
+                                        <h3 class="d-sm-block">I teach everything from hand percussion to drumset,<small>new to vintage, acoustic and electric, drum sticks and midi pads, or programming a drum machine inside your DAW.</small></h3>
                                     </div>
                                 </div>
                             </div>
@@ -64,11 +117,11 @@
                         <div class="card">
                             <div role="tab" class="card-header">
                                 <h2>
-                                    <a class="collapsed" data-toggle="collapse" data-target="#rock">ROCK!!! <small>All Styles and skill levels welcome.</small></a>
+                                    <a class="collapsed" data-toggle="collapse" data-target="#rock">ROCK!!! </a>
                                 </h2>
                                 <div class="collapse" id="rock" data-parent="#accordion">
                                     <div class="card-body">
-                                        <p class="d-sm-block">Proficient in rock, funk, hiphop, progressive, folk, reggae, jazz, and more!</p>
+                                        <h3 class="d-sm-block">All Styles and skill levels welcome.  <small>Proficient in rock, funk, hiphop, progressive, folk, reggae, jazz, and more!</small></h3>
                                     </div>
                                 </div>
                             </div>
@@ -80,6 +133,11 @@
                 </div>
             </div>
         </div>
+
+        <h1>H1 Sample Text</h1>
+        <h2>H2 Sample Text</h2>
+        <h3>H3 Sample Text</h3>
+        Body Sample Text
 
 
     </body>
