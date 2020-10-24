@@ -16,9 +16,9 @@ body {
 }
 
 .row-content {
-    padding: 20px 0;
+    padding: 10px 0;
     border-bottom: 1px ridge;
-    min-height: 200px;
+    min-height: 100px;
 }
 .navbar {
     background-color:  #000000b7;
@@ -26,4 +26,27 @@ body {
 
 li  {
     color: white;
+}
+
+.site-footer {
+    background-image: linear-gradient(to bottom, rgb(179, 178, 178), grey, #29292bc2, black );
+    color: white;
+}
+
+a {
+    color: white;
+}
+a:hover {
+    color: #17171a65;
+}
+
+i {
+    color: white;
+}
+
+.btn {
+    color: white;
+}
+.btn:hover {
+    color: #17171a65;
 }
