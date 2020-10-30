@@ -1,8 +1,4 @@
-h1, h2, h3{
-    font-family: 'Play', sans-serif;
-}
-
-body {
+h1, h2, h3, body {
     font-family: 'Play', sans-serif;
 }
 
@@ -11,8 +7,6 @@ body {
     margin: 0;
     padding: 5px;
     background-color: #000000b7;
-    
-    
 }
 
 .row-content {
@@ -22,6 +16,7 @@ body {
 }
 .navbar {
     background-color:  #000000b7;
+    text-align: 100%;
 }
 
 li  {
@@ -31,6 +26,7 @@ li  {
 .site-footer {
     background-image: linear-gradient(to bottom, rgb(179, 178, 178), grey, #29292bc2, black );
     color: white;
+    padding:10px 0;
 }
 
 a {
